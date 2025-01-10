@@ -117,3 +117,82 @@ body {
   color: rgba(14, 14, 14, 0.7);
   margin-top: 5px;
 }
+.quote-container {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 14px;
+  background: rgb(255, 255, 255);
+  padding: 40px;
+  background-image: url("/assets/quote-bg.png");
+  background-repeat: no-repeat;
+  background-position: left 40px top 20px;
+}
+.quote-container h4 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.quote-container h2 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+.quote-container p {
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(14, 14, 14, 0.6);
+}
+/* table section */
+.opinion-section {
+  margin: 50px auto;
+  
+}
+
+.opinion-section h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+  background: rgb(255, 255, 255);
+  border: 1px solid #e6e6e6;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #d5f0d6;
+}
+
+thead th {
+  padding: 15px;
+  font-weight: bold;
+  text-align: left;
+}
+
+tbody td {
+  padding: 15px;
+  border-top: 1px solid #e6e6e6;
+}
+
+tbody tr:nth-child(even) {
+    background: rgb(255, 255, 255);
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background: rgb(255, 255, 255);
+  font-size: 14px;
+  cursor: pointer;
+}
+.table-container {
+ padding: 20px;
+ background: rgb(255, 255, 255);
+ border-radius: 8px;
+}

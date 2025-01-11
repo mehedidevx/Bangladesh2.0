@@ -344,3 +344,18 @@ small {
   color: #666;
   font-size: 12px;
 }
+footer{
+  text-align: center;
+  margin: 10px;
+  padding: 40px;
+  background: rgb(255, 255, 255);
+}
+footer hr{
+  margin: 20px 0;
+  border: 1px solid rgba(14, 14, 14, 0.1);
+}
+.footer-links i{
+  margin-left: 15px;
+  font-size: 20px;
+}
+
